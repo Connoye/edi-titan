@@ -20,7 +20,7 @@ services:
     restart: unless-stopped
 
   pgadmin:
-    image: dpage/pgadmin4:7
+    image: dpage/pgadmin4:latest
     container_name: edi-pgadmin
     environment:
       PGADMIN_DEFAULT_EMAIL: admin@edi.com
